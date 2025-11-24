@@ -216,6 +216,9 @@ public class Loteria {
 			
 		}
 		
+		catch (GordoException e) {
+			System.out.println(e.getMessage());
+		}
 		
 		catch (Exception e) {
 				System.out.println("Error:"+e.getMessage());
